@@ -1,3 +1,7 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 import mysql.connector
 import pandas as pd
 import streamlit as st
@@ -13,7 +17,7 @@ def get_connection():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Mysql@12345",
+        password=os.getenv("DB_PASSWORD"),
         database="ecommerce_db"
     )
     return connection

@@ -26,7 +26,8 @@ Raw Data in CSV → Data Cleaning → MySQL Database → SQL Analysis → Dashbo
 
 
 
-📂 Project Structure
+#📂 Project Structure
+
 E-commerce-sales-analysis/
 |
 ├── data/
@@ -45,13 +46,13 @@ E-commerce-sales-analysis/
 ------------------------------------------------  
     
 🔄 Project Workflow
-# 1. Data Collection
+ 1. Data Collection
 
 This project uses an e-commerce sales dataset containing information related to orders, customers, sales, profit, segments, and other attributes.
 
-# 2. Data Cleaning
+2. Data Cleaning
 
-## The dataset was cleaned using Pandas by:
+ The dataset was cleaned using Pandas by:
 
 >Handling missing values
 >Removing duplicate records
@@ -59,7 +60,7 @@ This project uses an e-commerce sales dataset containing information related to 
 >Cleaning column names
 >Preparing the dataset for database analysis
 
-# 3. Database Management
+3. Database Management
 
 The cleaned dataset was imported into MySQL.
 
@@ -71,7 +72,7 @@ CREATE DATABASE ecommerce_db;
 
 The cleaned sales data was then stored in a MySQL table.
 
-# 4. SQL Analysis
+ 4. SQL Analysis
 
 SQL was used to perform different analytical operations such as:
 
@@ -83,7 +84,7 @@ SQL was used to perform different analytical operations such as:
 >Sales and profit analysis
 >Segment-wise analysis
 
- # 5. Dashboard
+ 5. Dashboard
 
 ## A Streamlit dashboard was created to display important KPIs and visualizations.
 
@@ -111,7 +112,7 @@ The dashboard includes:
 
 The main goal of this project is to practice an end-to-end Data Analytics workflow, starting from raw data and transforming it into useful insights through data cleaning, SQL analysis, visualization, and dashboarding.
 
-# 👩‍💻 Author
+#👩‍💻 Author
 
 Ishika Raghav
 
